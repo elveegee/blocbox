@@ -131,10 +131,6 @@ header .hero {
    margin:3em auto 0;
  }
 
- nav i{
-   display:none;
- }
-
  /* BUTTONS */
 .btn {
   border-radius: 4px;
@@ -336,6 +332,9 @@ header .hero {
    margin: 0 auto;
    display: block;
  }
+ header .fa-bars{
+     display:none;
+   }
  @media (min-width: 992px){
    footer{
      background-color: #3498DB;
@@ -388,6 +387,26 @@ header .hero {
   .one-third{
     list-style: none;
   }
+  footer .logo{
+    padding: 1.5em 0 2em 1.5em;
+    width: 120px
+  }
+  footer p, footer nav ul{
+    padding: 1em 0;
+    text-align: left;
+  }
+  footer{
+    background-color: #3498DB;
+    background-image: linear-gradient(to left,
+       #34495E 0%, #34495E 100%);
+    height: 100px;
+  }
+  footer p, footer nav ul {
+    font-size:14px;
+    font-weight:100;
+    text-align: center;
+    margin: 0px auto 0;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -420,6 +439,39 @@ header .hero {
   .one-third{
     list-style: none;
   }
+  footer {
+    background-color: #34495E;
+    background-image: linear-gradient(to top,
+       #3498DB 0%, #3498DB 50%, #34495E 50%, #34495E 100%);
+    color: #FFFFFF;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+  }
+  footer p, {
+    font-size:14px;
+    font-weight:100;
+    text-align: center;
+    margin: -10px auto 0px;
+    padding:20px 0px 0px;
+  }
+footer nav ul{
+  padding:0px 0px 30px;
+}
+  footer nav ul li {
+    list-style-type: none;
+    display: inline;
+  }
+  footer nav ul li a {
+    color:#FFFFFF;
+    text-decoration: none;
+  }
+  footer .logo{
+    padding: 0;
+    margin: -10px auto;
+    display: block;
+  }
 }
 @media (max-width:480px) {
   .container {
@@ -428,7 +480,7 @@ header .hero {
   .signin-buttons li {
     display: none;
   }
-  nav i{
+header .fa-bars{
     display:inline-block;
     float:right;
     padding:0;
@@ -486,5 +538,28 @@ header .hero {
  }
  body p {
    font-size:12px;
+ }
+ footer p, {
+   font-size:14px;
+   font-weight:100;
+   text-align: center;
+   margin: -10px auto 0px;
+   padding:20px 0px 0px;
+ }
+footer nav ul{
+ padding:0px 0px 30px;
+}
+ footer nav ul li {
+   list-style-type: none;
+   display: inline;
+ }
+ footer nav ul li a {
+   color:#FFFFFF;
+   text-decoration: none;
+ }
+ footer .logo{
+   padding: 0;
+   margin: -10px auto;
+   display: block;
  }
 }
