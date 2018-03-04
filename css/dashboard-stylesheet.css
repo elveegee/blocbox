@@ -84,6 +84,10 @@
   background-color:#34495E;
 }
 
+.coolmenu:active {
+  background-color:#000000;
+}
+
 /* CONTENT */
  .content {
    padding:6em 1% 1.5em;
