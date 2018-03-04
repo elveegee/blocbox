@@ -436,9 +436,19 @@ header .hero {
     min-height: 1px;
     margin:0 2% 20px;
   }
+
+  nav > .mobile-sign {
+  width: 65%;
+  float: right;
+}
+  nav > .one-half{
+    width:30%;
+  }
+
   .one-third{
     list-style: none;
   }
+
   footer {
     background-color: #34495E;
     background-image: linear-gradient(to top,
@@ -510,7 +520,11 @@ header .fa-bars{
     min-height: 1px;
     margin:0 2% 20px;
   }
-  nav .one-half{
+  nav > .mobile-sign {
+  width: 65%;
+  float: right;
+}
+  nav > .one-half{
     width:30%;
   }
   .one-third{
