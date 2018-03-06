@@ -66,6 +66,7 @@ top: 15px;
  .left-nav .items ul li {
    list-style-type: none;
    margin-bottom: 15px;
+
  }
  .left-nav .items ul li a {
    color:#FFFFFF;
@@ -111,12 +112,15 @@ top: 15px;
   margin-top:8px;
 }
 
-.coolmenu:hover {
+/* LEFT NAV PSEUDOSELECTORS */
+
+ .left-nav .items ul li.coolmenu:hover {
   background-color:#34495E;
+  padding: 0px 0px 0px 5px;
 }
 
-.coolmenu:active {
-  background-color:#000000;
+.left-nav .items ul li.coolmenu:active {
+ background-color:#34495E;
 }
 
 /* CONTENT */
