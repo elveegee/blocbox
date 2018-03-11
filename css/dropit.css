@@ -65,7 +65,7 @@ display:inline-block;
     z-index: 1000;
     display: none;
     min-width: 130px;
-    list-style: none;
+    list-style: circle;
 	padding: 40px 20px 0;
 	margin: 20px 0 0;
 }
@@ -93,6 +93,7 @@ display:inline-block;
   margin-bottom: 20px;
   transform:rotate(180deg);
   padding: 10px 5px;
+  text-align: right;
  }
  .dropit .dropit-open .dropit-submenu li:last-child {
   margin-bottom: 0px;
