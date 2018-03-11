@@ -599,7 +599,7 @@ footer nav ul{
    text-align: center;
  }
  .left-nav .items {
-   padding:0 6%;
+   padding:0;
  }
  .left-nav .items p {
    font-weight: 600;
@@ -609,12 +609,13 @@ footer nav ul{
    line-height: 15px;
  }
  .left-nav .items ul {
-   margin:0 0 40px;
+   margin:20px 0 20px;
    padding:0;
  }
  .left-nav .items ul li {
    list-style-type: none;
    margin-bottom: 15px;
+   padding: 10px;
  }
  .left-nav .items ul li a {
    color:#FFFFFF;
@@ -679,7 +680,7 @@ footer nav ul{
     text-align: center;
   }
   .left-nav .items {
-    padding:0 6%;
+    padding:0;
   }
   .left-nav .items p {
     font-weight: 600;
@@ -688,14 +689,8 @@ footer nav ul{
     color: #E2E2E2;
     line-height: 15px;
   }
-  .left-nav .items ul {
-    margin:0 0 40px;
-    padding:0;
-  }
   .left-nav .items ul li {
     list-style-type: none;
-    margin-bottom: 15px;
-
   }
   .left-nav .items ul li.all-items {
     list-style-type: none;
@@ -705,7 +700,7 @@ footer nav ul{
   }
 
   .left-nav .items ul.all-items {
-    padding: 0% -6%;
+    padding: 0%;
   }
 
   .left-nav .items ul li a {
@@ -755,9 +750,9 @@ footer nav ul{
 
  /* LEFT NAV PSEUDOSELECTORS */
 
-  .left-nav .items ul li.coolmenu:hover {
+  .left-nav .items ul li:hover {
    background-color:#34495E;
-   padding: 0px 0px 0px 5px;
+   padding: 10px;
  }
 
  .left-nav .items ul li.coolmenu:active {
